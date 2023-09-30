@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Tophead secstion start*/
+.tophead{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #0a5c0ab6;
+   
+    justify-content: space-between;
+}
+.tophead ul li {
+    color: #fff;
+    margin: 0px 3px;
+    display:inline-block;
+
+
+}
+.tophead ul li a{
+    color:#fff
+
+    
+}
+
+/*Tophead secstion End*/
+
+/*header secstion start*/
+header{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    padding: 0px 100px;
+    line-height: 100px;
+    background: #6ed47a;
+}
+header h2{
+    font-size: 50px;
+    margin: 20px;
+
+}
+header h2, h3{
+    display: inline-block;
+
+}
+/*header secstion end*/
+
+/*navbar secstion start*/
+nav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 100px;
+    background: #83e3a0;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+}  
+nav ul li a{
+    color: #181111;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font: size 105px; 
+    transition:0.3s linear ;
+}
+/*navbar secstion end*/
+/*section section srart*/
+section{
+    width: 100%;
+    padding:0px 100px ;
+
+}
+section main{
+    width: 80%;
+    float: left;
+    padding-top: 20px;
+}
+
+section aside{
+    width: 20%;
+    float: right;
+    padding: 20px 15px;
+    border: #958686;
+}
+aside ul li{
+    font-weight: 600;
+    list-style: none;
+}
+aside ul li ul li{
+    padding-left: 20px;
+    font-weight:normal ;
+
+}
+/*section section End*/
+/*Footer section start*/
+footer{
+    width: 100%;
+    height:100px ;
+    color: #fff;
+    padding: 10px 100px;
+    background: #087008b6;
+
+}
+footer .links{
+    width: 33%;
+    float: left;
+}
+footer .fllow{
+    width: 33%;
+    float: left;
+}
+footer .copy{
+    width: 34%;
+    float: right;
+    text-align: right;
+}
+
+/*Footer section start*/
+
+
+
+
+
+
+    
+    
+
+
